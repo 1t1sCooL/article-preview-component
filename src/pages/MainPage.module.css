@@ -3,9 +3,10 @@
     justify-content: center;
     align-items: center;
     width: 950px;
-    height: 350px;
+    height: 370px;
     background-color: white;
     border-radius: 13px;
+    overflow: hidden;
 }
 .img{
     overflow: hidden;
@@ -13,19 +14,25 @@
     height: 100%;
 }
 .img img {
-    width: 100%;
     height: 100%;
     object-fit: cover;
 }
 .right{
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding: 3rem;
 }
 .heading{
     font-size: 1.7rem;
     font-weight: 600;
     color: var(--VeryDarkGrayishBlue);
+    margin: 0 0 0 0;
+}
+.smallText{
+    font-size: 1.05rem;
+    line-height: 1.6rem;
+    margin: 1rem 0 1.5rem 0;
+    padding-right: 1rem;
 }
 .author{
     display: flex;
@@ -34,13 +41,83 @@
 }
 .authorLeft{
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 .authorLeft img{
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
+.name{
+    display: flex;
+    flex-direction: column;
+}
+.name h3{
+    margin: 0 0 0 1rem;
+    font-size: 1rem;
+}
+.name p{
+    margin: 0 0 0 1rem;
+}
 .share svg{
-    width: 100px;
-    height: 100px;
+    width: 20px;
+    height: 20px;
+    margin-left: .1rem;
+}
+.share{
+    background-color: var(--LightGrayishBlue);
+    color: var(--DesaturatedDarkBlue);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color, color .3s ease-in-out;
+}
+.share:hover{
+    background-color: var(--VeryDarkGrayishBlue);
+    color: white;
+}
+.shareContent {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    gap: 0.75rem;
+    padding: 1.75rem 2rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+    background-color: var(--VeryDarkGrayishBlue);
+}
+.shareIcons{
+    width: 1.5rem;
+}
+.shareIcons svg{
+    width: 1rem;
+    height: 1rem;
+}
+@media (max-width: 1000px) {
+    .container {
+        width: 90%;
+        height: 90%;
+        flex-direction: column;
+    }
+    .img{
+        width: 100%;
+        height: 100%;
+    }
+    .img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .author{
+        visibility: hidden;
+    }
 }
