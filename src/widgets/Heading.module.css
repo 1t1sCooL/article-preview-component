@@ -1,0 +1,17 @@
+.heading{
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--VeryDarkGrayishBlue);
+    margin: 0 0 0 0;
+    cursor: pointer;
+}
+@media (max-width: 1000px) {
+    .heading{
+        margin: 2rem 3rem 0 3rem;
+    }
+}
+@media (max-width: 500px) {
+    .heading{
+        margin: 1rem 1.5rem 0 1.5rem;
+    }
+}

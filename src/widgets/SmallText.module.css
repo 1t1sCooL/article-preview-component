@@ -1,0 +1,16 @@
+.smallText{
+    font-size: 1.05rem;
+    line-height: 1.6rem;
+    margin: 1rem 0 1.5rem 0;
+    padding-right: 1rem;
+}
+@media (max-width: 1000px) {
+    .smallText{
+        margin: 2rem 3rem 2rem 3rem;
+    }
+}
+@media (max-width: 500px) {
+    .smallText{
+        margin: 1rem 1.5rem 2rem 1.5rem;
+    }
+}
