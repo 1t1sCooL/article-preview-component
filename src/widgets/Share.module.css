@@ -1,0 +1,46 @@
+.share svg{
+    width: 20px;
+    height: 20px;
+    margin-left: .1rem;
+}
+.share{
+    background-color: var(--LightGrayishBlue);
+    color: var(--DesaturatedDarkBlue);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color, color .3s ease-in-out;
+}
+.share:hover{
+    background-color: var(--VeryDarkGrayishBlue);
+    color: white;
+}
+.shareHover{
+    background-color: var(--VeryDarkGrayishBlue);
+    color: white;
+}
+@media (max-width: 1000px) {
+    .share{
+        margin-right: 3rem;
+        width: 50px;
+        transition: scale .3s ease;
+        background-color: var(--LightGrayishBlue) !important;
+        color: var(--DesaturatedDarkBlue) !important;
+        scale: 1;
+    }
+    .share:focus{
+        scale: 1.2;
+    }
+}
+@media (max-width: 500px) {
+    .share{
+        margin-right: 1.5rem;
+        width: 50px;
+        z-index: 100;
+    }
+}

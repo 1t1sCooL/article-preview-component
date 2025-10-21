@@ -1,0 +1,16 @@
+.shareIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+}
+.shareIcons svg{
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform .2s ease;
+    width: 27px;
+    height: 27px;
+}
+.shareIcons svg:hover{
+    transform: scale(1.2);
+}

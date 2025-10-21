@@ -1,0 +1,30 @@
+.author{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right{
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    position: relative;
+}
+@media (max-width: 1000px) {
+    .right{
+        padding: 0;
+    }
+    .author{
+        background-color: var(--VeryDarkGrayishBlue);
+        border-radius: 0 0 15px 15px;
+        width: 100%;
+        align-self: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 500px) {
+    .author{
+        justify-content: flex-start;
+        align-items: center;
+    }
+}

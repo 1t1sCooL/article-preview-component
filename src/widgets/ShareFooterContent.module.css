@@ -1,0 +1,43 @@
+.shareFooterContent{
+    display: none;
+}
+@media (max-width: 1000px) {
+    .shareFooterContent{
+        display: flex;
+        z-index: 100;
+        width: 100%;
+        height: 70px;
+        border-radius: 15px;
+        justify-content: flex-start;
+        color: var(--GrayishBlue);
+        background-color: var(--VeryDarkGrayishBlue);
+        gap: 1.5rem;
+        margin-left: 3rem;
+    }
+    .shareFooterContent p{
+        text-transform: uppercase;
+        font-size: 1rem;
+        align-self: center;
+        cursor: pointer;
+        letter-spacing: 6px;
+        transform: scale(1);
+        transition: letter-spacing .3s ease, margin-left .3s ease, margin-right .3s ease;
+    }
+    .shareFooterContent svg:focus{
+        transition: scale .3s ease;
+    }
+    .shareFooterContent svg:focus{
+        scale: 1.2;
+    }
+    .shareFooterContent p:focus{
+        letter-spacing: 8px;
+        margin-left: -.5rem;
+        margin-right: -.5rem;
+    }
+}
+@media (max-width: 500px) {
+    .shareFooterContent{
+        gap: 1rem;
+        margin-left: 1.5rem;
+    }
+}
