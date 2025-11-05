@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Vercel](https://article-preview-component-sigma-seven.vercel.app/)
+- Solution URL: [Vercel](https://article-preview-component-ruddy-five.vercel.app/)
 - Live Site URL: [mmalabugin.ru/ArticlePreviewComponent](https://mmalabugin.ru/ArticlePreviewComponent)
 
 ## My process
