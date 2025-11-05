@@ -4,11 +4,11 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import {MainPage} from "@/pages/MainPage/";
 
-//const basename = 'ArticlePreviewComponent'
+//const basename = '/ArticlePreviewComponent/'
 
 function App() {
   return (
-    <BrowserRouter basename={basename ?? '/'}>
+    <BrowserRouter basename={ '/'}>
       <Routes>
         <Route path='/' element={<MainPage/>} />
       </Routes>
