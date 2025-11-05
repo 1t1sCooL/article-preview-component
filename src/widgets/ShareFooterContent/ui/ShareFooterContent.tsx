@@ -1,5 +1,5 @@
 import styles from "./ShareFooterContent.module.css";
-import {ShareIcons} from "../shared/ui/icons/ShareIcons.tsx";
+import {ShareIcons} from "@/shared/ui/icons/";
 
 export const ShareFooterContent = () => {
     return (

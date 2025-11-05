@@ -1,10 +1,10 @@
 import styles from "./Right.module.css";
 import {type Ref} from "react";
-import {ShareFooterContent} from "./ShareFooterContent.tsx";
-import {Author} from "./Author.tsx";
-import {Heading} from "./Heading.tsx";
-import {SmallText} from "./SmallText.tsx";
-import {Share} from "./Share.tsx";
+import {ShareFooterContent} from "@/widgets/ShareFooterContent/";
+import {Author} from "@/widgets/Author";
+import {Heading} from "../../Heading.tsx";
+import {SmallText} from "@/widgets/SmallText";
+import {Share} from "@/widgets/Share";
 
 interface RightProps {
     modalOpen: boolean;
