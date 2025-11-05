@@ -6,7 +6,7 @@ import {MainPage} from "@/pages/MainPage/";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={'ArticlePreviewComponent'}>
       <Routes>
         <Route path='/' element={<MainPage/>} />
       </Routes>
