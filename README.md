@@ -1,3 +1,52 @@
+# Frontend Mentor - Article preview component solution
+
+This is a solution to the [Article preview component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+## Table of contents
+
+- [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+- [My process](#my-process)
+    - [Built with](#built-with)
+- [Author](#author)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the component depending on their device's screen size
+- See the social media share links when they click the share icon
+
+### Screenshot
+
+![](./screenshot.png)
+
+### Links
+
+- Solution URL: [Vercel](https://article-preview-component-sigma-seven.vercel.app/)
+- Live Site URL: [mmalabugin.ru/ArticlePreviewComponent](https://mmalabugin.ru/ArticlePreviewComponent)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- [React](https://reactjs.org/) - JS library
+
+## Author
+
+- Website - [mmalabugin.ru](https://mmalabugin.ru/)
+- Frontend Mentor - [@1t1sCooL](https://www.frontendmentor.io/profile/1t1sCooL)
+- Twitter - [@vi_el_mar](https://www.twitter.com/vi_el_mar)
+- Telegram - [@ItIsCooL](https://t.me/ItIsCooL)
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
