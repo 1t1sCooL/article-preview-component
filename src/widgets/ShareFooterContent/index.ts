@@ -1,0 +1,1 @@
+export {ShareFooterContent} from './ui/ShareFooterContent'

@@ -1,6 +1,6 @@
 import styles from "./Popup.module.css";
 import type {Ref} from "react";
-import {ShareIcons} from "../icons/ShareIcons.tsx";
+import {ShareIcons} from "../../icons/ShareIcons.tsx";
 
 interface PopupProps {
     showPopup: () => void;
