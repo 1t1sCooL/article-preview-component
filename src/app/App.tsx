@@ -1,18 +1,20 @@
-import './styles/global.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { MainPage } from '@/pages/MainPage/';
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import {MainPage} from "@/pages/MainPage/";
 
-const basename = '/ArticlePreviewComponent/'
+import './styles/global.css';
+
+// const basename = '/ArticlePreviewComponent/'
 
 function App() {
   return (
-    <BrowserRouter basename={ basename}>
+    <BrowserRouter basename={'/'}>
       <Routes>
-        <Route path='/' element={<MainPage/>} />
+        <Route path="/" element={<MainPage />} />
       </Routes>
-      <ToastContainer position='bottom-right' autoClose={3000} />
+      <ToastContainer position="bottom-right" autoClose={3000} />
     </BrowserRouter>
   );
 }
