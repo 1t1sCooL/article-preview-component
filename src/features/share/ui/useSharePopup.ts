@@ -40,7 +40,7 @@ export const useSharePopup = (breakpoint = 1000) => {
     const hidePopup = () => {
         timeoutRef.current = setTimeout(() => {
             setModalOpen(false);
-        }, 200);
+        }, 500);
     };
 
     return {
