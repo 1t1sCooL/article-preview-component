@@ -6,11 +6,11 @@ import 'react-toastify/dist/ReactToastify.css';
 
 import './styles/global.css';
 
-// const basename = '/ArticlePreviewComponent/'
+const basename = import.meta.env.BASE_URL.replace(/\/$/, '') || '/';
 
 function App() {
   return (
-    <BrowserRouter basename={'/'}>
+    <BrowserRouter basename={basename}>
       <Routes>
         <Route path="/" element={<MainPage />} />
       </Routes>
